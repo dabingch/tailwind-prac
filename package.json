@@ -1,0 +1,19 @@
+{
+	"name": "tailwindcss-tut",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tailwind build -i css/main.css -o public/tailwind.css",
+		"watch": "tailwind build -i css/main.css -o public/tailwind.css -w"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"autoprefixer": "^10.4.14",
+		"postcss": "^8.4.25",
+		"tailwindcss": "^3.3.2"
+	}
+}
